@@ -7,7 +7,7 @@ User-agent: *
 Disallow: /api
 
 # Host
-Host: https://myad-dev.com
+Host: https://myads.dev
 
 # Sitemaps
-Sitemap: https://myad-dev.com/sitemap.xml
+Sitemap: https://myads.dev/sitemap.xml
