@@ -196,7 +196,7 @@ export default function Secsions() {
 
           <figure className="mt-3">
             <Image
-              src="/images/service.jpg"
+              src="/images/reviews.jpg"
               width={1200}
               height={675}
               alt="ตัวอย่างผลลัพธ์จาก Google Ads/SEO"

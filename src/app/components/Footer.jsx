@@ -43,8 +43,8 @@ export default function Footer() {
           <div className="row align-items-center g-3">
             <div className="col-lg-8">
               <div className="d-flex align-items-center gap-3">
-                <Image
-                  src={LOGO_URL || "/images/logo.png"}
+                <img
+                  src="/images/logo.png"
                   alt={BRAND}
                   width={48}
                   height={48}
@@ -74,7 +74,7 @@ export default function Footer() {
           {/* Brand + Social */}
           <div className="col">
             <div className="d-flex align-items-center gap-2 mb-3">
-              <Image
+              <img
                 src={LOGO_URL || "/images/logo.png"}
                 alt={BRAND}
                 width={36}

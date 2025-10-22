@@ -37,8 +37,8 @@ export default function ToolfreeClient() {
 
     const url =
       downloadType === "facebook"
-        ? "https://apipost.www.myads.dev/facebook.zip"
-        : "https://apipost.www.myads.dev/google.zip";
+        ? "https://apipost.myad-dev.com/facebook.zip"
+        : "https://apipost.myad-dev.com/google.zip";
 
     const a = document.createElement("a");
     a.href = url;
@@ -91,7 +91,7 @@ export default function ToolfreeClient() {
         <h3 className="h5 mb-3">ดาวน์โหลด Landing Page Google</h3>
         <div className="d-flex justify-content-center">
           <Image
-            src="/images/google.webp"
+            src="/images/ld.jpg"
             width={650}
             height={360}
             alt="ตัวอย่าง Landing Page สำหรับ Google"

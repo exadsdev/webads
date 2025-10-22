@@ -3,6 +3,8 @@ import Link from "next/link";
 import JsonLd from "./components/JsonLd";
 import Secsions from "./components/Secsions";
 import { SITE, BRAND, LOGO_URL } from "./seo.config";
+import Script from "next/script";
+import Head from "next/head";
 
 export const dynamic = "force-static";
 
@@ -172,6 +174,10 @@ export default function HomePage() {
 
   return (
     <>
+ 
+  
+
+
       <nav className="container" aria-label="เมนูหลัก">
         <ul className="nav">
           <li><Link href="/" prefetch>หน้าแรก</Link></li>
